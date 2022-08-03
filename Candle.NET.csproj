@@ -4,11 +4,9 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <PackageLicenseFile>D:\Projekty\GH\Candle.NET\LICENSE</PackageLicenseFile>
-    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageReadmeFile>NUGET_README.md</PackageReadmeFile>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Authors>rd3v</Authors>
     <Copyright>Originally created by Miguel Mejía Jiménez</Copyright>
     <PackageIcon>logo.png</PackageIcon>
@@ -16,7 +14,7 @@
     <NeutralLanguage>en</NeutralLanguage>
     <PackageProjectUrl>https://www.github.com/RDevWasTaken/Candle.NET</PackageProjectUrl>
     <RepositoryUrl>https://www.github.com/RDevWasTaken/Candle.NET</RepositoryUrl>
-    <PackageReleaseNotes>First release.</PackageReleaseNotes>
+    <PackageReleaseNotes>Some fixes.</PackageReleaseNotes>
     <Description>Candle.NET is a SFML based C# library that provides light, shadow casting and field of view functionalities with easy integration.
 It is originally written in C++, and this project is its version for .Net languages.</Description>
   </PropertyGroup>
@@ -41,6 +39,10 @@ It is originally written in C++, and this project is its version for .Net langua
 
   <ItemGroup>
     <None Update="logo.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="NUGET_README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>

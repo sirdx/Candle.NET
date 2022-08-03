@@ -3,9 +3,9 @@
 <h3 align="center">2D lighting for SFML.NET</h3>
 <p align="center">
 <img src="https://img.shields.io/badge/-.NET%206-5C2D91?style=flat-square"/>
+<img src="https://img.shields.io/nuget/v/Candle.NET?style=flat-square"/>
 <img src="https://img.shields.io/badge/SFML.Net-v2.5.0-8CC445?logo=SFML&style=flat-square"/>
 <a href="https://miguelmj.github.io/Candle"><img src="https://img.shields.io/badge/code-documented-success?style=flat-square"/></a>
-<img src="https://img.shields.io/badge/version-v1.0-informational?style=flat-square"/>
 <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-informational?style=flat-square"/></a>
 </p>
 Candle.NET is a SFML based C# library that provides light, shadow casting and field of view functionalities with easy integration.
